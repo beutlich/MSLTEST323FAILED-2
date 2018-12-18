@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <head>
+<style type="text/css">
+body{ background: #EEEEEE; color: #000; text-align: center;}
+body, table{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+#page{ width: 700px; margin: auto; text-align: left; background-color: #FFF;}
+table.info{ border: 0; width: 690px; margin: 5px;}
+table.info td{ background-color: #efefef; padding: 1em;}
+table.info td.header{ font-weight: bold; width: 150px; background-color: #EEE;}
+table.info td.error, span.error { background-color: #F5A9BC; color: red; }
+table.info td.ok, span.ok{ background-color: #CDFECD; color: green; }
+table.info td.untested, span.untested{ background-color: #DDD; color: #999; }
+table.info td.right{ text-align: right; }
+h1{ font-size: 16px; padding: 1em; }
+</style>
+</head>
+<body>
+<div id="page">
+<table class="info">
+	<tr><td colspan="3" class="header"><h1>Meta report - CSV file comparison</h1></td></tr>
+	<tr><td colspan="2" class="header">Timestamp:</td><td>18.12.2018 13:24:50 [UTC]</td></tr>
+	<tr><td colspan="2" class="header">Mode:</td><td>CsvTreeCompare</td></tr>
+	<tr><td colspan="2" class="header">Base directory:</td><td>t:\Referencemodels\Libraries\ModelicaStandardLibrary\ReferenceResults\v3.2.2+build.0-beta.3\</td></tr>
+	<tr><td colspan="2" class="header">Compare directory:</td><td>e:\compare\Failed2\</td></tr>
+	<tr><td colspan="2" class="header">Verbosity:</td><td>2</td></tr>
+	<tr><td colspan="2" class="header">Tolerance:</td><td>2e-3</td></tr>
+	<tr><td colspan="2" class="header">Logfile:</td><td><a href="file:///log.txt">log.txt</a></td></tr>
+	<tr><td colspan="2" class="header">Loglevel:</td><td>Debug</td></tr>
+	<tr><td colspan="2" class="header">Compared files:</td><td>The compare directory contained 19 files.<br/>19 files were tested.<br/>19 files failed.<br/>Success rate is 0,0%.</td></tr>
+<tr><td class="header" colspan="3">Results</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>FAILED - At least one result failed its check with the base file.<br/>UNTESTED - No base file has been found or an exception occurred.<br/>SUCCEEDED - All results have been checked and are valid.</td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,01</td><td class="error"><a href="ModelicaTest.Fluid.Dissipation.Verifications.HeatTransfer.HeatExchanger.kc_flatTube.kc_flatTube_report.html">ModelicaTest\Fluid\Dissipation\Verifications\HeatTransfer\HeatExchanger\kc_flatTube\kc_flatTube.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.Fluid.Dissipation.Verifications.HeatTransfer.HeatExchanger.kc_roundTube.kc_roundTube_report.html">ModelicaTest\Fluid\Dissipation\Verifications\HeatTransfer\HeatExchanger\kc_roundTube\kc_roundTube.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;9907234,50</td><td class="error"><a href="ModelicaTest.Fluid.Dissipation.Verifications.HeatTransfer.StraightPipe.kc_twoPhaseOverall_KC.kc_twoPhaseOverall_KC_report.html">ModelicaTest\Fluid\Dissipation\Verifications\HeatTransfer\StraightPipe\kc_twoPhaseOverall_KC\kc_twoPhaseOverall_KC.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;116,04</td><td class="error"><a href="ModelicaTest.Media.TestAllProperties.IncompleteMedia.ReferenceMoistAir.ReferenceMoistAir_report.html">ModelicaTest\Media\TestAllProperties\IncompleteMedia\ReferenceMoistAir\ReferenceMoistAir.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;116,27</td><td class="error"><a href="ModelicaTest.Media.TestAllProperties.MoistAir.MoistAir_report.html">ModelicaTest\Media\TestAllProperties\MoistAir\MoistAir.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Forces.Spring2.Spring2_report.html">ModelicaTest\MultiBody\Forces\Spring2\Spring2.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Forces.Torque.Torque_report.html">ModelicaTest\MultiBody\Forces\Torque\Torque.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Forces.Torque2.Torque2_report.html">ModelicaTest\MultiBody\Forces\Torque2\Torque2.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Forces.Torque3.Torque3_report.html">ModelicaTest\MultiBody\Forces\Torque3\Torque3.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Joints.JointUSP2.JointUSP2_report.html">ModelicaTest\MultiBody\Joints\JointUSP2\JointUSP2.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,01</td><td class="error"><a href="ModelicaTest.MultiBody.Joints.RevolutePlanarLoopConstraint.RevolutePlanarLoopConstraint_report.html">ModelicaTest\MultiBody\Joints\RevolutePlanarLoopConstraint\RevolutePlanarLoopConstraint.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Joints.UniversalSpherical.UniversalSpherical_report.html">ModelicaTest\MultiBody\Joints\UniversalSpherical\UniversalSpherical.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Parts.FreeBodies.FreeBodies_report.html">ModelicaTest\MultiBody\Parts\FreeBodies\FreeBodies.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,01</td><td class="error"><a href="ModelicaTest.MultiBody.Parts.FreeBodies2.FreeBodies2_report.html">ModelicaTest\MultiBody\Parts\FreeBodies2\FreeBodies2.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,01</td><td class="error"><a href="ModelicaTest.MultiBody.Parts.FreeBodiesEnforceStatesFalse.FreeBodiesEnforceStatesFalse_report.html">ModelicaTest\MultiBody\Parts\FreeBodiesEnforceStatesFalse\FreeBodiesEnforceStatesFalse.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,28</td><td class="error"><a href="ModelicaTest.MultiBody.Parts.Rotor1D.GearConstraint3.GearConstraint3_report.html">ModelicaTest\MultiBody\Parts\Rotor1D\GearConstraint3\GearConstraint3.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.Parts.Rotor1D.Rotor1D_1.Rotor1D_1_report.html">ModelicaTest\MultiBody\Parts\Rotor1D\Rotor1D_1\Rotor1D_1.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.PlanarLoopWithMove.PlanarLoopWithMove_report.html">ModelicaTest\MultiBody\PlanarLoopWithMove\PlanarLoopWithMove.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.Tables.CombiTimeTable.Test6.Test6_report.html">ModelicaTest\Tables\CombiTimeTable\Test6\Test6.csv</a></td></tr>
+</table>
+</div>
+  </body>
+</html>
+
